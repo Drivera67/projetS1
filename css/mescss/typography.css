@@ -1,0 +1,28 @@
+@import url('https://fonts.google.com/specimen/Cinzel?query=cinze&sidebar.open=true&selection.family=Cinzel:wght@700');
+@import url('https://fonts.google.com/specimen/Red+Hat+Display?query=red');
+
+h1{
+    font-family: Cinzel, serif;
+    font-weight: bold;
+    color: white;
+}
+
+h2{
+    font-family: Cinzel, serif;
+    font-weight: bold;
+    color: #16364E;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 1.6rem;
+    margin: 0 20px;
+}
+
+.chapo{
+    font-style: italic;
+}
