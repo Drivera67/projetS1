@@ -28,6 +28,7 @@ body{
 }
 article .couleur p{
     color: white;
+    margin-bottom: 0;
 }
 article .couleur h2{
     color: white;

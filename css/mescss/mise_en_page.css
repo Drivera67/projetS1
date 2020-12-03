@@ -30,6 +30,14 @@ padding-top: 25px;
     height: 391px;
     background-repeat: no-repeat;
 }
+
+.fond_2{
+    background-image: url("../../img/Article_pollution_fond.jpg");
+    margin: 0;
+    height: 391px;
+    background-repeat: no-repeat;
+}
+
 .articles{
     margin: 0;
 }
@@ -65,7 +73,7 @@ article p{
     padding-right: 10px;
 }
 .couleur{
-    background-color: #16364E;
+    background-color: #0C2430;
     margin: 0;
 }
 
