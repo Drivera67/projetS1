@@ -26,3 +26,12 @@ body{
 .chapo{
     font-style: italic;
 }
+article .couleur p{
+    color: white;
+}
+article .couleur h2{
+    color: white;
+}
+footer p{
+    font-size: 1.5rem;
+}

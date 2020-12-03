@@ -28,7 +28,7 @@ padding-top: 25px;
     background-image: url("../../img/fond_1.png");
     margin: 0;
     height: 391px;
-
+    background-repeat: no-repeat;
 }
 .articles{
     margin: 0;
@@ -48,4 +48,62 @@ padding-top: 25px;
 .chapo p{
     padding-left: 5px;
     padding-right: 5px;
+}
+
+article h2:first-child {
+    margin-top: 100px;
+}
+
+article h2{
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+article p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.couleur{
+    background-color: #16364E;
+    margin: 0;
+}
+
+footer{
+    background-color: #010D00;
+    margin-bottom: -20px;
+}
+footer h2{
+    font-family: "Red Hat Display", bold;
+    color: white;
+}
+.fa-facebook-square, .fa-instagram, .fa-twitter, .mmi{
+    font-size: 38px;
+    color: white;
+}
+.mmi img{
+    position: relative;
+    top: 20px;
+}
+
+footer i{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+footer h2{
+    text-align: center;
+    padding-right: 5px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.reseaux{
+    text-align: center;
 }
