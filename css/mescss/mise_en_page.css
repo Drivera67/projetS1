@@ -38,6 +38,20 @@ padding-top: 25px;
     background-repeat: no-repeat;
 }
 
+.fond_3{
+    background-image: url("../../img/Icone solution.jpg");
+    margin: 0;
+    height: 391px;
+    background-repeat: no-repeat;
+}
+
+.fond_4{
+    background-image: url("../../img/header_a_propos.jpg");
+    margin: 0;
+    height: 391px;
+    background-repeat: no-repeat;
+}
+
 .articles{
     margin: 0;
 }
@@ -56,10 +70,12 @@ padding-top: 25px;
 .chapo p{
     padding-left: 5px;
     padding-right: 5px;
+    padding-bottom: 10px;
+    box-shadow: #777 0 15px 20px -8px;
 }
 
 article h2:first-child {
-    margin-top: 100px;
+    margin-top: 115px;
 }
 
 article h2{
@@ -72,7 +88,7 @@ article p{
     padding-left: 10px;
     padding-right: 10px;
 }
-.couleur{
+.couleur, .couleur_2{
     background-color: #0C2430;
     margin: 0;
 }
@@ -114,4 +130,57 @@ footer p{
 
 .reseaux{
     text-align: center;
+}
+
+.couleur_2 img:last-of-type{
+    margin-bottom: -5px;
+    padding-top: 25px;
+}
+
+.img_a_propos{
+    margin-top: 120px;
+}
+
+.formulaire p{
+    width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.formulaire h2{
+    text-align: center;
+}
+.formulaire input{
+    margin-left: 27px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: #777 0 15px 20px -8px;
+    height: 30px;
+    width: 240px;
+}
+
+.formulaire input:last-child{
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.bouton{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #16364E;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: #777 0 15px 20px -8px;
+
+}
+.bouton p{
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 15px;
 }

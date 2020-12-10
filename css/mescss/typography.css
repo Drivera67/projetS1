@@ -26,11 +26,11 @@ body{
 .chapo{
     font-style: italic;
 }
-article .couleur p{
+article .couleur p, article .couleur_2 p{
     color: white;
     margin-bottom: 0;
 }
-article .couleur h2{
+article .couleur h2, article .couleur_2 h2{
     color: white;
 }
 footer p{
