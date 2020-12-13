@@ -16,12 +16,15 @@ body .fleche img{
 }
 
 .logo{
-padding-top: 25px;
+    padding-top: 25px;
+    z-index: 2;
+    position: fixed;
 }
 
 .articles h1{
     text-align: center;
     margin: 0;
+    padding-top: 75px;
 }
 
 .fond_1{
@@ -47,6 +50,13 @@ padding-top: 25px;
 
 .fond_4{
     background-image: url("../../img/header_a_propos.jpg");
+    margin: 0;
+    height: 391px;
+    background-repeat: no-repeat;
+}
+
+.fond_5{
+    background-image: url("../../img/fond article segonnire.png");
     margin: 0;
     height: 391px;
     background-repeat: no-repeat;
@@ -85,8 +95,8 @@ article h2{
 }
 
 article p{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .couleur, .couleur_2{
     background-color: #0C2430;
@@ -183,4 +193,44 @@ footer p{
     display: block;
     text-align: center;
     padding-top: 15px;
+}
+
+.autres_projet img{
+    width: 50%;
+}
+
+.autres_projet li{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.autres_projet ul{
+    margin-top: 100px;
+    padding-left: 0;
+}
+
+.couleur_3, .couleur_3_1{
+    background-color: #0C2430;
+}
+
+.couleur_3 h2{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.couleur_3 p, .couleur_3_1{
+    color: white;
+}
+.triangles{
+    margin-top: -20px;
+}
+
+.couleur_3_1 p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.titre_page_sup h2{
+    text-align: center;
 }

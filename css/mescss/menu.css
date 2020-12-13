@@ -80,11 +80,12 @@
 }
 
 .menu li{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     transform: translateX(30px);
     opacity: 0;
     transition: all .5s ease;
-
+    text-align: center;
+    margin-left: -55px;
 }
 
 .menu a{
