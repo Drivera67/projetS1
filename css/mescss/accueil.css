@@ -1,0 +1,12 @@
+body{
+    animation: Transition 1s
+}
+
+@keyframes Transition {
+    from{
+        margin-top: 150%;
+    }
+    to {
+        margin-top: 0%;
+    }
+}

@@ -12,33 +12,74 @@
     <link rel="stylesheet" href="css/mescss/menu.css">
     <link rel="stylesheet" href="css/mescss/mise_en_page.css">
     <link rel="stylesheet" href="css/mescss/typography.css">
+    <link rel="stylesheet" href="css/mescss/accueil.css">
+
     <script src="https://kit.fontawesome.com/16ecb4242c.js" crossorigin="anonymous"></script>
+
 </head>
-<body>
+<body class="accueil_suite">
 
     <header>
-        <div class="logo"><img src="img/Logo.svg" alt="logo streaming"></div>
+        <a href="index.html"><div class="logo"><img src="img/Logo.svg" alt="logo streaming"></div></a>
 
         <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
             <div class="nav-toggle-bar"></div>
         </div>
         <nav class="menu">
             <ul>
-                <li><a href="">Histoire</a></li>
-                <li><a href="">La pollution un problème majeur</a></li>
-                <li><a href="">Nous avons les solutions</a></li>
-                <li><a href="">À propos</a></li>
-                <li><a href="">Autres projets</a></li>
+                <li><a href="Histoire.html">Histoire</a></li>
+                <li><a href="La%20pollution%20un%20probleme%20majeur.html">La pollution un problème majeur</a></li>
+                <li><a href="Nous%20avons%20les%20solutions.html">Nous avons les solutions</a></li>
+                <li><a href="A%20propos.html">À propos</a></li>
+                <li><a href="Autres%20projets.html">Autres projets</a></li>
             </ul>
 
         </nav>
     </header>
-
-    <p>Nos séries et films préférés sont aujourd'hui disponibles sur internet. Cependant ils sont dangereux, produisant des dégâts que l'on ne remarque même pas mais qui sont bien présents. Game of Throne en est un pilier de la pollution engendrer par les appareils numériques.</p>
+        <div class="text-accueil">
+            <p>Nos séries et films préférés sont aujourd'hui disponibles sur internet. Cependant ils sont dangereux, produisant des dégâts que l'on ne remarque même pas mais qui sont bien présents. Game of Throne en est un pilier de la pollution engendrer par les appareils numériques.</p>
+        </div>
 
     <video controls="controls" poster="img/Blason%20famille.jpg">
         <source src="video/game-of-thrones-teaser-dvd-saison-1-vf.mp4">
     </video>
+
+
+    <div class="Tweets">
+        <a href="Histoire.html">
+            <div class="Tweet_1">
+                <img src="img/Fond%20siège.jpg" alt="">
+                <p>Les acteurs ont soif de pouvoir cependant il n'y a qu'une place au trône. Découvrez l'histoire de Game of Thrones</p>
+            </div>
+        </a>
+
+        <a href="La%20pollution%20un%20probleme%20majeur.html">
+            <div class="Tweet_2">
+                <img src="img/Tweet%20pollution%20solution.jpg" alt="">
+                <p>Les plateformes streaming sont la cause, d'une pollution importante, venez le découvrir </p>
+            </div>
+        </a>
+
+        <a href="Nous%20avons%20les%20solutions.html">
+            <div class="Tweet_3">
+                <img src="img/Icone%20sollution%20possibilité%202.jpg" alt="">
+                <p>Venez découvrir nos petites astuces pour apprendre à réduire notre pollution numérique</p>
+            </div>
+        </a>
+    </div>
+
+    <footer>
+        <div class="reseaux">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="mmi"><img src="img/Logo%20MMI%202.png" alt="logo mmi"></i>
+        </div>
+        <h2>David Rivera C1</h2>
+        <p>Projet réalisé dans le cadre d'un exercice pédagogique
+            au département MMI de Montbéliard</p>
+    </footer>
+
 
 </body>
 </html>
