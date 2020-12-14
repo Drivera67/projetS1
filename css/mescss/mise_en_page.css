@@ -2,7 +2,7 @@ body.accueil{
     background-image:url("../../img/Fond Accueil.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 812px;
+    height: 791px;
     background-position: center;
 
 }
@@ -279,4 +279,8 @@ video{
 .Tweets a{
     color: black;
     text-decoration: none;
+}
+
+h3{
+    text-align: center;
 }
