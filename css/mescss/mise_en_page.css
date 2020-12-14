@@ -284,3 +284,17 @@ video{
 h3{
     text-align: center;
 }
+
+h4 {
+    padding-left: 20px;
+    margin-top: 0;
+    padding-right: 20px;
+}
+
+.couleur h4, .couleur_2 h4{
+    color: white;
+}
+
+.couleur_2{
+    margin-bottom: 10px;
+}

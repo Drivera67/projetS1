@@ -20,6 +20,13 @@ h3{
     margin-top: 30px;
 }
 
+h4 {
+    font-family: "Red Hat Display", sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+
 html{
     font-size: 62.5%;
 }
